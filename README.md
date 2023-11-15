@@ -103,13 +103,14 @@ src 폴더나 swh_lib는 원하는 이름으로 수정해도 됩니다.
 
 이후 다음 명령어를 실행합니다.
 
-이제 앱을 빌드 할 때 src 폴더에 존재하는 파일을 읽어 .exe 파일이 생성되는 경로에 dll파일이 자동으로 생성되며, DynamicLibrary.open 함수를 통해 dll 파일을 읽어옵니다.
 
 ```bash
 flutter pub run ffigen --config ffigen.yaml
 ```
 
 그러면 output에 설정한 경로에 dart 파일이 생성됩니다.
+
+이제 앱을 빌드 할 때 src 폴더에 존재하는 파일을 읽어 .exe 파일이 생성되는 경로에 dll파일이 자동으로 생성되며, DynamicLibrary.open 함수를 통해 dll 파일을 읽어옵니다.
 
 ### 구현
 
